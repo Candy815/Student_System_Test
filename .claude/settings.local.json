@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(npm run dev)",
+      "Bash(npm run build:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(powershell:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(dir:*)",
+      "Bash(tasklist:*)",
+      "Bash(/ps:*)",
+      "Bash(start:*)",
+      "Bash(node:*)",
+      "Bash(npx vite build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
